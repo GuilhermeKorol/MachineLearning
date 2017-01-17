@@ -31,6 +31,10 @@ centroids = initial_centroids;
 previous_centroids = centroids;
 idx = zeros(m, 1);
 
+%plotProgresskMeans(X, centroids, previous_centroids, ones(m, 1), K, i);
+%pause;
+%fprintf('Press enter to continue.\n');
+
 % Run K-Means
 for i=1:max_iters
     
